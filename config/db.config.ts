@@ -40,7 +40,7 @@ export const disconnect = () => {
     Mongoose.disconnect();
 
     database.once("close", async () => {
-        console.log("Diconnected  to database");
+        console.log("Disconnected to database");
     });
 
 };
