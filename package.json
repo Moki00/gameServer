@@ -1,0 +1,30 @@
+{
+  "name": "gserver",
+  "version": "1.0.0",
+  "description": "the server for Moki's games",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moki00/gameServer.git"
+  },
+  "author": "Moki",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Moki00/gameServer/issues"
+  },
+  "homepage": "https://github.com/Moki00/gameServer#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.6",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
