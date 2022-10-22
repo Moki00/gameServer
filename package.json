@@ -2,10 +2,10 @@
   "name": "gameserver",
   "version": "1.0.0",
   "description": "the server for Moki's game store",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.ts"
   },
   "repository": {
     "type": "git",
