@@ -1,0 +1,25 @@
+{
+  "name": "gameserver",
+  "version": "1.0.0",
+  "description": "my server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moki00/gameServer.git"
+  },
+  "keywords": [
+    "games"
+  ],
+  "author": "moki",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Moki00/gameServer/issues"
+  },
+  "homepage": "https://github.com/Moki00/gameServer#readme",
+  "dependencies": {
+    "mongodb": "4.11"
+  }
+}
