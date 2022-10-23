@@ -1,0 +1,9 @@
+games
+
+name
+price
+id
+type
+ages
+skill
+length
