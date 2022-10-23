@@ -1,4 +1,5 @@
-import express from "express";
+const express = require('express')
+
 import { connectToDatabase } from "./services/database.service"
 import { gamesRouter } from "./routes/games.router";
 
