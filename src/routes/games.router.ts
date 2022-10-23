@@ -12,7 +12,7 @@ gamesRouter.use(express.json());
 // GET
 gamesRouter.get("/", async (_req: Request, res: Response) => {
     try {
-       const games = (await collections.games.find({}).toArray()) as Game[];
+       const games = (await collections.games.find({}).toArray()) as unknown as Game[];
 
         res.status(200).send(games);
     } catch (error) {
@@ -26,7 +26,7 @@ gamesRouter.get("/:id", async (req: Request, res: Response) => {
     try {
         
         const query = { _id: new ObjectId(id) };
-        const game = (await collections.games.findOne(query)) as Game;
+        const game = (await collections.games.findOne(query)) as unknown as Game;
 
         if (game) {
             res.status(200).send(game);
