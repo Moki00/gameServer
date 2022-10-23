@@ -4,7 +4,11 @@
   "description": "my server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -20,6 +24,8 @@
   },
   "homepage": "https://github.com/Moki00/gameServer#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "mongodb": "4.11"
   }
 }
