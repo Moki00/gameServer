@@ -1,10 +1,42 @@
 {
-	"name": "Fallout3",
-	"price": 19.99,
-	"category": "video game"
-}
+{
+	"name":"Chrono Cross",
+	"price":19.99,
+	"date":"1999",
+	"type":"RPG",
+	"age":"12+",
+	"skill":"",
+},
+{
+	"name":"Chrono Trigger",
+	"price":24.99,
+	"date":"1995",
+	"type":"RPG",
+	"age":"11+",
+	"desc":"time travel RPG",
+},
 {
 	"name": "Final Fantasy 7",
 	"price": 9.99,
-	"category": "video game"
+	"date":"1999",
+	"type":"RPG",
+	"age":"13+",
+	"desc":"Game full of magic & monsters",
+},
+{
+	"name": "Fallout3",
+	"price": 59.99,
+	"date":"2008",
+	"type":"RPG",
+	"ages":"Mature 17+",
+	"desc":"RPG game about post nuclear war",
+},
+{
+	"name":"",
+	"price":"",
+	"date":"",
+	"type":"",
+	"ages":"",
+	"skill":"",
+},
 }
