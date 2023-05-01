@@ -1,2 +1,3 @@
 # gameServer
-the server for Moki's game store
+
+the client for Moki's game store
